@@ -33,7 +33,7 @@ public class Player : MonoBehaviour {
 		float horizontal = 3.0f * Input.GetAxis("Mouse X");
 		float vertical = 3.0f * Input.GetAxis("Mouse Y");
 		transform.Rotate(0f, horizontal, 0f);
-		//MainCam.transform.Rotate(vertical, 0f, 0f);
+		MainCam.transform.Rotate(vertical, 0f, 0f);
 
 	}
 }
